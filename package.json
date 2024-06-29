@@ -1,0 +1,27 @@
+{
+  "name": "@hanekawa/vitepress-theme",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "dev": "vitepress dev",
+    "build": "vitepress build",
+    "preview": "vitepress preview",
+    "preinstall": "npx only-allow pnpm"
+  },
+  "keywords": [
+    "vitepress",
+    "theme"
+  ],
+  "author": "",
+  "license": "MIT",
+  "description": "",
+  "dependencies": {
+    "lxgw-wenkai-webfont": "1.7.0",
+    "vue": "3.4.31"
+  },
+  "devDependencies": {
+    "@shikijs/vitepress-twoslash": "1.10.0",
+    "less": "4.2.0",
+    "vitepress": "1.2.3"
+  }
+}
