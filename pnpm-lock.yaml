@@ -16,8 +16,8 @@ importers:
         version: 3.4.31(typescript@5.5.2)
     devDependencies:
       '@shikijs/vitepress-twoslash':
-        specifier: 1.10.0
-        version: 1.10.0(typescript@5.5.2)
+        specifier: 1.10.1
+        version: 1.10.1(typescript@5.5.2)
       less:
         specifier: 4.2.0
         version: 4.2.0
@@ -306,55 +306,46 @@ packages:
     resolution: {integrity: sha512-C/zbRYRXFjWvz9Z4haRxcTdnkPt1BtCkz+7RtBSuNmKzMzp3ZxdM28Mpccn6pt28/UWUCTXa+b0Mx1k3g6NOMA==}
     cpu: [arm]
     os: [linux]
-    libc: [glibc]
 
   '@rollup/rollup-linux-arm-musleabihf@4.18.0':
     resolution: {integrity: sha512-l3m9ewPgjQSXrUMHg93vt0hYCGnrMOcUpTz6FLtbwljo2HluS4zTXFy2571YQbisTnfTKPZ01u/ukJdQTLGh9A==}
     cpu: [arm]
     os: [linux]
-    libc: [musl]
 
   '@rollup/rollup-linux-arm64-gnu@4.18.0':
     resolution: {integrity: sha512-rJ5D47d8WD7J+7STKdCUAgmQk49xuFrRi9pZkWoRD1UeSMakbcepWXPF8ycChBoAqs1pb2wzvbY6Q33WmN2ftw==}
     cpu: [arm64]
     os: [linux]
-    libc: [glibc]
 
   '@rollup/rollup-linux-arm64-musl@4.18.0':
     resolution: {integrity: sha512-be6Yx37b24ZwxQ+wOQXXLZqpq4jTckJhtGlWGZs68TgdKXJgw54lUUoFYrg6Zs/kjzAQwEwYbp8JxZVzZLRepQ==}
     cpu: [arm64]
     os: [linux]
-    libc: [musl]
 
   '@rollup/rollup-linux-powerpc64le-gnu@4.18.0':
     resolution: {integrity: sha512-hNVMQK+qrA9Todu9+wqrXOHxFiD5YmdEi3paj6vP02Kx1hjd2LLYR2eaN7DsEshg09+9uzWi2W18MJDlG0cxJA==}
     cpu: [ppc64]
     os: [linux]
-    libc: [glibc]
 
   '@rollup/rollup-linux-riscv64-gnu@4.18.0':
     resolution: {integrity: sha512-ROCM7i+m1NfdrsmvwSzoxp9HFtmKGHEqu5NNDiZWQtXLA8S5HBCkVvKAxJ8U+CVctHwV2Gb5VUaK7UAkzhDjlg==}
     cpu: [riscv64]
     os: [linux]
-    libc: [glibc]
 
   '@rollup/rollup-linux-s390x-gnu@4.18.0':
     resolution: {integrity: sha512-0UyyRHyDN42QL+NbqevXIIUnKA47A+45WyasO+y2bGJ1mhQrfrtXUpTxCOrfxCR4esV3/RLYyucGVPiUsO8xjg==}
     cpu: [s390x]
     os: [linux]
-    libc: [glibc]
 
   '@rollup/rollup-linux-x64-gnu@4.18.0':
     resolution: {integrity: sha512-xuglR2rBVHA5UsI8h8UbX4VJ470PtGCf5Vpswh7p2ukaqBGFTnsfzxUBetoWBWymHMxbIG0Cmx7Y9qDZzr648w==}
     cpu: [x64]
     os: [linux]
-    libc: [glibc]
 
   '@rollup/rollup-linux-x64-musl@4.18.0':
     resolution: {integrity: sha512-LKaqQL9osY/ir2geuLVvRRs+utWUNilzdE90TpyoX0eNqPzWjRm14oMEE+YLve4k/NAqCdPkGYDaDF5Sw+xBfg==}
     cpu: [x64]
     os: [linux]
-    libc: [musl]
 
   '@rollup/rollup-win32-arm64-msvc@4.18.0':
     resolution: {integrity: sha512-7J6TkZQFGo9qBKH0pk2cEVSRhJbL6MtfWxth7Y5YmZs57Pi+4x6c2dStAUvaQkHQLnEQv1jzBUW43GvZW8OFqA==}
@@ -371,8 +362,8 @@ packages:
     cpu: [x64]
     os: [win32]
 
-  '@shikijs/core@1.10.0':
-    resolution: {integrity: sha512-BZcr6FCmPfP6TXaekvujZcnkFmJHZ/Yglu97r/9VjzVndQA56/F4WjUKtJRQUnK59Wi7p/UTAOekMfCJv7jnYg==}
+  '@shikijs/core@1.10.1':
+    resolution: {integrity: sha512-qdiJS5a/QGCff7VUFIqd0hDdWly9rDp8lhVmXVrS11aazX8LOTRLHAXkkEeONNsS43EcCd7gax9LLoOz4vlFQA==}
 
   '@shikijs/core@1.9.0':
     resolution: {integrity: sha512-cbSoY8P/jgGByG8UOl3jnP/CWg/Qk+1q+eAKWtcrU3pNoILF8wTsLB0jT44qUBV8Ce1SvA9uqcM9Xf+u3fJFBw==}
@@ -380,11 +371,11 @@ packages:
   '@shikijs/transformers@1.9.0':
     resolution: {integrity: sha512-wo8dNbZtFtVhKtw8BnXIT/FDTGMwEdWcQSIRa78ou14JGkMYxSCBN942W5+IRUifP5BwVUWgkXBYX/M3FUFkeg==}
 
-  '@shikijs/twoslash@1.10.0':
-    resolution: {integrity: sha512-LMvsYyFs73Saf0VsxrScXQZkV2UszxnYa4gGJbK0Ct8NH6YpQDg+FROsNsbqKk+SsKsbbydZP0W8ojKuvq69pA==}
+  '@shikijs/twoslash@1.10.1':
+    resolution: {integrity: sha512-BtB7TnpZEHFAVhVU9yPLOhWznJ5NFtHX1b8AEr4UXxYBGAqsM2b0VkjAlfJ32gQxVyr121G8q4g0ZT5eV5bi9w==}
 
-  '@shikijs/vitepress-twoslash@1.10.0':
-    resolution: {integrity: sha512-Qvua0BIb5uSDryLBkSRx8EX7cNwvTa2GDq53Yh7NbqhwFlYPVp3pnBaRtiDiyYl3Ng+rR2UAakMFiF4PTdnMFg==}
+  '@shikijs/vitepress-twoslash@1.10.1':
+    resolution: {integrity: sha512-bBFHGKMGW0ACa8jFjDK2V9sWSh6wh1R1/U5VbVUr0HBm7kLR/H0bbr9RZeD91wKZb9JI3zJRwiNrTCueLuBw8A==}
 
   '@types/debug@4.1.12':
     resolution: {integrity: sha512-vIChWdVG3LG1SMxEvI/AK+FWJthlrqlTu7fbrlywTkkaONwk/UAGaULXRlf8vkzFBLVm0zkMdCquhL5aOjhXPQ==}
@@ -852,8 +843,8 @@ packages:
     resolution: {integrity: sha512-cBznnQ9KjJqU67B52RMC65CMarK2600WFnbkcaiwWq3xy/5haFJlshgnpjovMVJ+Hff49d8GEn0b87C5pDQ10g==}
     hasBin: true
 
-  shiki@1.10.0:
-    resolution: {integrity: sha512-YD2sXQ+TMD/F9BimV9Jn0wj35pqOvywvOG/3PB6hGHyGKlM7TJ9tyJ02jOb2kF8F0HfJwKNYrh3sW7jEcuRlXA==}
+  shiki@1.10.1:
+    resolution: {integrity: sha512-uafV7WCgN4YYrccH6yxpnps6k38sSTlFRrwc4jycWmhWxJIm9dPrk+XkY1hZ2t0I7jmacMNb15Lf2fspa/Y3lg==}
 
   shiki@1.9.0:
     resolution: {integrity: sha512-i6//Lqgn7+7nZA0qVjoYH0085YdNk4MC+tJV4bo+HgjgRMJ0JmkLZzFAuvVioJqLkcGDK5GAMpghZEZkCnwxpQ==}
@@ -1269,7 +1260,7 @@ snapshots:
   '@rollup/rollup-win32-x64-msvc@4.18.0':
     optional: true
 
-  '@shikijs/core@1.10.0': {}
+  '@shikijs/core@1.10.1': {}
 
   '@shikijs/core@1.9.0': {}
 
@@ -1277,22 +1268,22 @@ snapshots:
     dependencies:
       shiki: 1.9.0
 
-  '@shikijs/twoslash@1.10.0(typescript@5.5.2)':
+  '@shikijs/twoslash@1.10.1(typescript@5.5.2)':
     dependencies:
-      '@shikijs/core': 1.10.0
+      '@shikijs/core': 1.10.1
       twoslash: 0.2.9(typescript@5.5.2)
     transitivePeerDependencies:
       - supports-color
       - typescript
 
-  '@shikijs/vitepress-twoslash@1.10.0(typescript@5.5.2)':
+  '@shikijs/vitepress-twoslash@1.10.1(typescript@5.5.2)':
     dependencies:
-      '@shikijs/twoslash': 1.10.0(typescript@5.5.2)
+      '@shikijs/twoslash': 1.10.1(typescript@5.5.2)
       floating-vue: 5.2.2(vue@3.4.31(typescript@5.5.2))
       mdast-util-from-markdown: 2.0.1
       mdast-util-gfm: 3.0.0
       mdast-util-to-hast: 13.2.0
-      shiki: 1.10.0
+      shiki: 1.10.1
       twoslash: 0.2.9(typescript@5.5.2)
       twoslash-vue: 0.2.9(typescript@5.5.2)
       vue: 3.4.31(typescript@5.5.2)
@@ -1951,9 +1942,9 @@ snapshots:
   semver@5.7.2:
     optional: true
 
-  shiki@1.10.0:
+  shiki@1.10.1:
     dependencies:
-      '@shikijs/core': 1.10.0
+      '@shikijs/core': 1.10.1
 
   shiki@1.9.0:
     dependencies:
