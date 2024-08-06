@@ -17,7 +17,7 @@
   "description": "",
   "dependencies": {
     "lxgw-wenkai-webfont": "1.7.0",
-    "vue": "3.4.31"
+    "vue": "3.4.36"
   },
   "devDependencies": {
     "@shikijs/vitepress-twoslash": "1.10.0",
